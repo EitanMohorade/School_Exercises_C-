@@ -1,0 +1,13 @@
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\obj\Debug\netcoreapp3.1\ejerciciosFISCELLA.csprojAssemblyReference.cache
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\obj\Debug\netcoreapp3.1\ejerciciosFISCELLA.AssemblyInfoInputs.cache
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\obj\Debug\netcoreapp3.1\ejerciciosFISCELLA.AssemblyInfo.cs
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\obj\Debug\netcoreapp3.1\ejerciciosFISCELLA.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\bin\Debug\netcoreapp3.1\ejerciciosFISCELLA.exe
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\bin\Debug\netcoreapp3.1\ejerciciosFISCELLA.deps.json
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\bin\Debug\netcoreapp3.1\ejerciciosFISCELLA.runtimeconfig.json
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\bin\Debug\netcoreapp3.1\ejerciciosFISCELLA.runtimeconfig.dev.json
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\bin\Debug\netcoreapp3.1\ejerciciosFISCELLA.dll
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\bin\Debug\netcoreapp3.1\ejerciciosFISCELLA.pdb
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\obj\Debug\netcoreapp3.1\ejerciciosFISCELLA.dll
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\obj\Debug\netcoreapp3.1\ejerciciosFISCELLA.pdb
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\obj\Debug\netcoreapp3.1\ejerciciosFISCELLA.genruntimeconfig.cache

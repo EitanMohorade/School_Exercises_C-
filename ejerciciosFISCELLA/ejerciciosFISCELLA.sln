@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejerciciosFISCELLA", "ejerciciosFISCELLA\ejerciciosFISCELLA.csproj", "{CC96B379-76F8-4DB7-8F59-1009D447AF26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicioFISCELLA2", "ejercicioFISCELLA2\ejercicioFISCELLA2.csproj", "{110B34C8-11ED-4D75-AB62-3F02E635633E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC96B379-76F8-4DB7-8F59-1009D447AF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC96B379-76F8-4DB7-8F59-1009D447AF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC96B379-76F8-4DB7-8F59-1009D447AF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC96B379-76F8-4DB7-8F59-1009D447AF26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{110B34C8-11ED-4D75-AB62-3F02E635633E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110B34C8-11ED-4D75-AB62-3F02E635633E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110B34C8-11ED-4D75-AB62-3F02E635633E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110B34C8-11ED-4D75-AB62-3F02E635633E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CE2E961-3AAA-479A-B3E3-DAFD7ECABCBF}
+	EndGlobalSection
+EndGlobal
