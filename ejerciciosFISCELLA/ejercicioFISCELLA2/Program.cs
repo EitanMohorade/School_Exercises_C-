@@ -55,21 +55,35 @@ namespace ejercicioFISCELLA2
                 {
                     Console.WriteLine("es menor de edad");
                 }
-
-                Console.WriteLine(per.nombre);
+                Console.WriteLine($"el nombre es {per.Nombre}. Tiene {per.Edad} con una altura de {per.Altura} M y peso de {per.Peso} kg");
             }
+
             
             Console.ReadKey();
         }
 
         class Persona
         {
-            public string nombre { get { return nombre; } set {  } } 
-            public Int16 edad { get { return edad; } set {  } }
-            public Int32 DNI { get { return DNI; }  }
-            public string sexo { get { return sexo; } set { sexo = "H"; } }
-            public double peso { get { return peso; } set {  } }
-            public double altura { get { return altura; } set { } }
+            string nombre;
+            Int16 edad;
+            Int32 dni;
+            string sexo;
+            double peso;
+            double altura;
+
+            public string Nombre { get { return nombre; } set { nombre = value; } } 
+            public Int16 Edad { get { return edad; } set { edad = value; } }
+            public Int32 DNI { get { return dni; }  }
+            public string Sexo { get { return sexo; } set { sexo = value; } }
+            public double Peso { get { return peso; } set { peso = value; } }
+            public double Altura { 
+                get { 
+                    return altura; 
+                } 
+                set { 
+                    altura = value; 
+                } 
+            }
 
             public Persona()
             {
