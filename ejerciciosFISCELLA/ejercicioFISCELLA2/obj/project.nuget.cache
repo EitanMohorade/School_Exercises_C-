@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/hBVHz3y1hWoO2bptZp7kRk3DF26y6wHyDsb0e1QfzgHj4OVEB4JTkzL4zbpBHrTbrYrHcGzDeBODFstQKKTlQ==",
+  "dgSpecHash": "HXLFD6SE1dvr/CUdw8FwmQ3DzoslntXiuQjNHzXYMKK2L5AvJNVrHHwB58WZluBDDEd9bJd49Ldskn2/NHeoMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejercicioFISCELLA2\\ejer2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
   "logs": []
 }

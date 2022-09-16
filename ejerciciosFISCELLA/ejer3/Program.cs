@@ -9,19 +9,41 @@ namespace ejer3
     {
         static void Main(string[] args)
         {
-            Password password = new Password(9);
+            //Password password = new Password();
+            //Console.WriteLine($"La contraseña es: {password.Contraseña}");
 
 
-            Console.WriteLine(password.Contraseña);
+            int contador = 0;
+            Console.WriteLine("ingrese cuantas passwords quiere ingresar: ");
+            short cantContra = Convert.ToInt16(Console.ReadLine());
 
-            if (password.esFuerte())
+            Password[] arrayContra = new Password[cantContra];
+            Boolean[] arrayFuerte = new Boolean[cantContra];
+            for(int i = 0; i < arrayContra.Length; i++)
             {
-                Console.WriteLine("es segura");
+                
+                Console.WriteLine($"cuantos caracteres queres que tenga la contraseña {i}: ");
+                int cantCaracter = Convert.ToInt32(Console.ReadLine());
+
+                arrayContra[i] = new Password(cantCaracter);
             }
-            else
+
+            foreach (Password pass in arrayContra)
             {
-                Console.WriteLine("NO es segura");
+                Console.WriteLine($"la longitud de la contraseña {contador} es de {pass.Longitud}");
+                if (arrayFuerte[contador] = pass.esFuerte())
+                {
+                    Console.WriteLine("es fuerte");
+                }
+                else
+                {
+                    Console.WriteLine("NO es fuerte");
+                }
+                contador++;
             }
+
+
+            
             Console.ReadKey();
         }
     }
@@ -39,9 +61,6 @@ namespace ejer3
         }
         public Password(int longitud)
         {
-            Random rd = new Random();
-
-
             this.longitud = longitud;
             this.contraseña = generarPassword(); //rd.Next(this.longitud);
         }
@@ -49,7 +68,26 @@ namespace ejer3
         public bool esFuerte()
         {
             string contra = this.contraseña;
-            if (Char.IsUpper(contra, 2)) {
+            int cargaUpper = 0;
+            int cargaLower = 0;
+            int cargaNumber = 0;
+
+            for (int i = 0; i < contra.Length; i++) { 
+            if (Char.IsUpper(contra, i))
+                {
+                        cargaUpper++;
+                }
+            if(Char.IsLower(contra, i))
+                {
+                    cargaLower++;
+                }
+            if(Char.IsNumber(contra, i))
+                {
+                    cargaNumber++;
+                }
+            }
+            if(cargaUpper > 2 && cargaLower > 1 && cargaNumber >5)
+            {
                 return true;
             }
             return false;
@@ -57,7 +95,7 @@ namespace ejer3
         public string generarPassword()
         {
             Random rdn = new Random();
-            string caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890%$#@";
+            string caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789421240%$#@";
             int longitud = caracteres.Length;
             char letra;
             string contraseniaAleatoria = string.Empty;
