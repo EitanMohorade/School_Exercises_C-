@@ -21,8 +21,10 @@ namespace ejerciciosFISCELLA
     }
     class Cuenta
     {
-        public string titular { get; set; }
-        public double cantidad { get; set; } = 0;
+        string titular = "";
+        double cantidad = 0;
+        public string Titular { get { return titular; } set { titular = value; } }
+        public double Cantidad { get { return cantidad; } set { cantidad = value; } }
         public Cuenta(string titular)
         {
             this.titular = titular;
