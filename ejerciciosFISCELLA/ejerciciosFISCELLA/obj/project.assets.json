@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA.csproj",
-      "projectName": "ejerciciosFISCELLA",
-      "projectPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA.csproj",
+      "projectUniqueName": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer1.csproj",
+      "projectName": "ejer1",
+      "projectPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer1.csproj",
       "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\obj\\",
       "projectStyle": "PackageReference",

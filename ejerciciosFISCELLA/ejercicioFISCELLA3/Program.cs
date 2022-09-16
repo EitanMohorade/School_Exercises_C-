@@ -1,16 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 namespace ejerciciosFISCELLA3
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
-
     class Password
     {
         int longitud;
@@ -26,8 +19,36 @@ namespace ejerciciosFISCELLA3
         {
             Random rd = new Random();
 
+
             this.longitud = longitud;
-            this.contraseña = rd.Next(0, this.longitud);
+            this.contraseña = generarPassword(); //rd.Next(this.longitud);
+        }
+
+        public void esFuerte()
+        {
+
+        }
+        public void generarPassword()
+        {
+            Random rdn = new Random();
+            string caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890%$#@";
+            int longitud = caracteres.Length;
+            char letra;
+            int longitudContrasenia = 10;
+            this.longitud = longitudContrasenia;
+            string contraseniaAleatoria = string.Empty;
+            for (int i = 0; i < longitudContrasenia; i++)
+            {
+                letra = caracteres[rdn.Next(longitud)];
+                contraseniaAleatoria += letra.ToString();
+            }
+        }
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            
         }
     }
 }
