@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA.csproj": {}
+    "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA.csproj": {
+    "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA.csproj",
+        "projectUniqueName": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA.csproj",
         "projectName": "ejerciciosFISCELLA",
-        "projectPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA.csproj",
-        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\obj\\",
+        "projectPath": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA.csproj",
+        "packagesPath": "C:\\Users\\Lochofo\\.nuget\\packages\\",
+        "outputPath": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lochofo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

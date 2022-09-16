@@ -55,7 +55,10 @@ namespace ejercicioFISCELLA2
                 {
                     Console.WriteLine("es menor de edad");
                 }
-                Console.WriteLine($"el nombre es {per.Nombre}. Tiene {per.Edad} con una altura de {per.Altura} M y peso de {per.Peso} kg");
+
+                if (per.Nombre != null && per.Altura == 0) {
+                    Console.WriteLine($"el nombre es {per.Nombre}. Tiene {per.Edad} con una altura de {per.Altura} M y peso de {per.Peso} kg");
+                }
             }
 
             
