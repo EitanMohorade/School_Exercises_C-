@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer3\\ejer3.csproj",
-      "projectName": "ejer3",
-      "projectPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer3\\ejer3.csproj",
+      "projectUniqueName": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer4\\ejer4.csproj",
+      "projectName": "ejer4",
+      "projectPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer4\\ejer4.csproj",
       "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer3\\obj\\",
+      "outputPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
