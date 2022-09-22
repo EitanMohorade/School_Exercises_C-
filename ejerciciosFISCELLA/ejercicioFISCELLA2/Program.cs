@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime;
 
 namespace ejercicioFISCELLA2
 {
@@ -32,33 +33,35 @@ namespace ejercicioFISCELLA2
             }
 
 
-            foreach(Persona per in ListaPersona)
+            for (int i = 0; i < ListaPersona.Count; i++)
             {
-                if (per.calcularMC() == 1)
+
+
+                if (ListaPersona[i].calcularMC() == 1)
                 {
-                    Console.WriteLine("valor mayor que 25");
+                    Console.WriteLine($"persona n*{i} valor mayor que 25");
                 }
-                else if (per.calcularMC() == -1)
+                else if (ListaPersona[i].calcularMC() == -1)
                 {
-                    Console.WriteLine("valor menor que 20");
+                    Console.WriteLine($"persona n*{i} valor menor que 20");
                 }
-                else if (per.calcularMC() == 0)
+                else if (ListaPersona[i].calcularMC() == 0)
                 {
-                    Console.WriteLine("peso ideal");
+                    Console.WriteLine($"persona n*{i} peso ideal");
                 }
 
-                if (per.esMayorDeEdad())
+                if (ListaPersona[i].esMayorDeEdad())
                 {
-                    Console.WriteLine("es mayor de edad");
+                    Console.WriteLine($"persona n*{i} es mayor de edad");
                 }
                 else
                 {
-                    Console.WriteLine("es menor de edad");
+                    Console.WriteLine($"persona n*{i} es menor de edad");
                 }
 
-                if (per.Nombre != null && per.Altura == 0) {
-                    Console.WriteLine($"el nombre es {per.Nombre}. Tiene {per.Edad} con una altura de {per.Altura} M y peso de {per.Peso} kg");
-                }
+                //if (per.Nombre != null || per.Altura == 0) { //SI ES QUE QUERES QUE SOLO APAREZCA EL Q TIENE TODOS LOS DATOS
+                    Console.WriteLine($"el nombre de la persona n*{i} es {ListaPersona[i].Nombre}. Tiene {ListaPersona[i].Edad} con una altura de {ListaPersona[i].Altura} M y peso de {ListaPersona[i].Peso} kg");
+                //}
             }
 
             
@@ -67,12 +70,12 @@ namespace ejercicioFISCELLA2
 
         class Persona
         {
-            string nombre;
-            Int16 edad;
+            string nombre = "";
+            Int16 edad = 0;
             Int32 dni;
-            string sexo;
-            double peso;
-            double altura;
+            string sexo = "H";
+            double peso = 0;
+            double altura = 0;
 
             public string Nombre { get { return nombre; } set { nombre = value; } } 
             public Int16 Edad { get { return edad; } set { edad = value; } }
@@ -128,7 +131,7 @@ namespace ejercicioFISCELLA2
             public bool esMayorDeEdad()
             {
 
-                if (this.edad > 18)
+                if (this.edad >= 18)
                 {
                     return true;
                 }

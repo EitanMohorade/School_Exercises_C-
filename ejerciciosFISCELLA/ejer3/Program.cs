@@ -22,7 +22,7 @@ namespace ejer3
             for(int i = 0; i < arrayContra.Length; i++)
             {
                 
-                Console.WriteLine($"cuantos caracteres queres que tenga la contraseña {i}: ");
+                Console.WriteLine($"cuantos caracteres queres que tenga la contraseña n*{i}: ");
                 int cantCaracter = Convert.ToInt32(Console.ReadLine());
 
                 arrayContra[i] = new Password(cantCaracter);
@@ -30,7 +30,7 @@ namespace ejer3
 
             foreach (Password pass in arrayContra)
             {
-                Console.WriteLine($"la longitud de la contraseña {contador} es de {pass.Longitud}");
+                Console.WriteLine($"la longitud de la contraseña n*{contador} es de {pass.Longitud} caracteres.   CONTRASEÑA: {pass.Contraseña}");
                 if (arrayFuerte[contador] = pass.esFuerte())
                 {
                     Console.WriteLine("es fuerte");
@@ -95,7 +95,7 @@ namespace ejer3
         public string generarPassword()
         {
             Random rdn = new Random();
-            string caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789421240%$#@";
+            string caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789421240";
             int longitud = caracteres.Length;
             char letra;
             string contraseniaAleatoria = string.Empty;
