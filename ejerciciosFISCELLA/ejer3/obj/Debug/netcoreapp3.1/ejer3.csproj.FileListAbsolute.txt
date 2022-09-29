@@ -10,8 +10,6 @@ C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer3\obj\Deb
 C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer3\obj\Debug\netcoreapp3.1\ejer3.dll
 C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer3\obj\Debug\netcoreapp3.1\ejer3.pdb
 C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer3\obj\Debug\netcoreapp3.1\ejer3.genruntimeconfig.cache
-C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer3\obj\Debug\netcoreapp3.1\ejer3.csproj.AssemblyReference.cache
-C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer3\obj\Debug\netcoreapp3.1\ejer3.GeneratedMSBuildEditorConfig.editorconfig
 D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer3\bin\Debug\netcoreapp3.1\ejer3.exe
 D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer3\bin\Debug\netcoreapp3.1\ejer3.deps.json
 D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer3\bin\Debug\netcoreapp3.1\ejer3.runtimeconfig.json
@@ -26,3 +24,4 @@ D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer3\obj\Debug\netcoreapp3.1\ejer3.csp
 D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer3\obj\Debug\netcoreapp3.1\ejer3.dll
 D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer3\obj\Debug\netcoreapp3.1\ejer3.pdb
 D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer3\obj\Debug\netcoreapp3.1\ejer3.genruntimeconfig.cache
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer3\obj\Debug\netcoreapp3.1\ejer3.csprojAssemblyReference.cache

@@ -20,6 +20,28 @@ Por ejemplo, si tenemos un Electrodomestico con un precio final de 300,
 una lavadora de 200 y una televisión de 500, el resultado final sera de 1000 (300+200+500) 
 para electrodomésticos, 200 para lavadora y 500 para televisión.
              */
+
+            List<Electrodomestico> ListaElectrodomestico = new List<Electrodomestico>();
+            for (var i= 0; i < 5; i++)
+            {
+                ListaElectrodomestico.Add(new Television(100, "ROJO", 'F', 13, 60, false));
+                ListaElectrodomestico.Add(new Lavadora(100, "AZUL", 'A', 32, 50));
+            }
+            int contador = 0;
+            foreach (Electrodomestico lista in ListaElectrodomestico)
+            {
+
+                if (lista is Television) { 
+                    Console.WriteLine("El televisor cuesta " + lista.precioFinal());
+                    contador++;
+                }else if (lista is Lavadora)
+                {
+                    Console.WriteLine("La lavadora cuesta " + lista.precioFinal());
+                    contador++;
+                }
+            }
+            Console.WriteLine($"hay {contador} electrodomesticos");
+
             Console.ReadKey();
         }
     }
@@ -31,34 +53,43 @@ para electrodomésticos, 200 para lavadora y 500 para televisión.
         public bool SintonizadorTDT { get { return sintonizadorTDT; } set { sintonizadorTDT = value; } }
         public Television() { }
         public Television(double precio, double peso) : base(precio, peso){}
-        public Television(double resolucion, bool sintonizadorTDT) : base() { }
-        public override void precioFinal()
+        public Television(double precio, string color, char consumoEnergetico, double peso, double resolucion, bool sintonizadorTDT) : base(precio, color, consumoEnergetico, peso)
         {
-            if(this.resolucion > 40)
-            {
-                Precio += ((Precio / 100) * 30);
-            }else if (sintonizadorTDT)
-            {
-                Precio += 50;
+            Resolucion = resolucion;
+            SintonizadorTDT = sintonizadorTDT;
+        }
+        public override double precioFinal()
+        {
+            double precioFinal = 0;
+            if (Resolucion > 40)
+            {   
+                precioFinal += ((Precio / 100) * 30);
             }
+            if (SintonizadorTDT)
+            {
+                precioFinal += 50;
+            }
+            return precioFinal + Precio;
         }
     }
     public class Lavadora : Electrodomestico
     {
-        double carga = 0;
-        public double Carga { get { return carga; } set { Carga = value; } } 
+        double carga = 5;
+        public double Carga { get { return carga; } set { carga = value; } } 
         public Lavadora() { }
         public Lavadora(double precio, double peso) : base(precio, peso){}
-        public Lavadora(double carga) 
+        public Lavadora(double precio, string color, char consumoEnergetico, double peso, double carga) : base(precio, color, consumoEnergetico, peso)
         {
-            this.carga = carga;
+            Carga = carga;
         }
-        public override void precioFinal()
+        public override double precioFinal()
         {
-            if(this.carga > 30)
+            double precioFinal = 0;
+            if(Carga > 30)
             {
-                Precio += 50;
+                precioFinal += 50;
             }
+            return precioFinal + Precio;
         }
     }
     public class Electrodomestico
@@ -75,49 +106,51 @@ para electrodomésticos, 200 para lavadora y 500 para televisión.
         public Electrodomestico() { }
         public Electrodomestico(double precio, double peso) 
         {
-            this.precio = precio;
-            this.peso = peso;
+            Precio = precio;
+            Peso = peso;
         }
         public Electrodomestico(double precio, string color, char consumoEnergetico, double peso) 
         {
-            this.precio = precio;
-            this.color = color;
-            this.consumoEnergetico = consumoEnergetico;
-            comprobarConsumoEnergetico(this.consumoEnergetico);
-            comprobarColor(this.color);
-            this.peso = peso;
+            Precio = precio;
+            Color = color;
+            ConsumoEnergetico = consumoEnergetico;
+            comprobarConsumoEnergetico(ConsumoEnergetico);
+            comprobarColor(Color);
+            Peso = peso;
         }
 
-        public virtual void precioFinal()
+        public virtual double precioFinal()
         {
+            double precioFinal = 0;
             double tamaño = 0;
-            if (this.peso > 0 && this.peso <= 19) tamaño = 10;
-            if (this.peso >= 20 && this.peso <= 49) tamaño = 50;
-            if (this.peso >= 50 && this.peso <= 79) tamaño = 80;
-            if (this.peso > 80) tamaño = 100;
+            if (Peso > 0 && Peso <= 19) tamaño = 10;
+            if (Peso >= 20 && Peso <= 49) tamaño = 50;
+            if (Peso >= 50 && Peso <= 79) tamaño = 80;
+            if (Peso > 80) tamaño = 100;
 
-            this.precio = (100 - ((int)this.consumoEnergetico - 65) * 20) + tamaño ;
+            precioFinal = (100 - ((int)ConsumoEnergetico - 65) * 20) + tamaño ;
+            return precioFinal + Precio;
         }
         private void comprobarColor(string color)
         {
-            if (color == this.color)
+            if (color == Color)
             {
-                this.color = color;
+                Color = color;
             }
             else
             {
-                this.color = "blanco";
+                Color = "blanco";
             }
         }
         private void comprobarConsumoEnergetico(char letra)
         {
             if (char.ToUpper(letra) == 'A' || char.ToUpper(letra) == 'B' || char.ToUpper(letra) == 'C' || char.ToUpper(letra) == 'D' || char.ToUpper(letra) == 'E')
             {
-                this.consumoEnergetico = letra;
+                ConsumoEnergetico = letra;
             }
             else
             {
-                this.consumoEnergetico = 'F';
+                ConsumoEnergetico = 'F';
             }
 
 
