@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/hBVHz3y1hWoO2bptZp7kRk3DF26y6wHyDsb0e1QfzgHj4OVEB4JTkzL4zbpBHrTbrYrHcGzDeBODFstQKKTlQ==",
+  "dgSpecHash": "I2d5mre+ne7pU52AZu+r3EcIDY6yZeDr47kIjK3FSqYBWNkP96sD70EvnMRBfHAUZIRMURwsiJAHRXqLYMNkhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejercicioFISCELLA2\\ejer2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Alumno\\Desktop\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejercicioFISCELLA2\\ejer2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512",
+    "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

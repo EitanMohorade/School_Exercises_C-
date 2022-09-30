@@ -12,11 +12,33 @@ namespace ejer5
         {
             List<Serie> ListaSerie = new List<Serie>();
             List<Videojuego> ListaVideojuegos = new List<Videojuego>();
-            for (int i= 0; i < 5; i++)
+            for (int i = 0; i < 5; i++)
             {
-                ListaSerie.Add(new Serie());
-                ListaVideojuegos.Add(new Videojuego());
+                ListaSerie.Add(new Serie("ÑOQUI", 5, 'f', "AAAAAAA"));
+                ListaVideojuegos.Add(new Videojuego("popo", 'a', "pedrito", 5));
             }
+            ListaSerie.Add(new Serie("ÑOQsfafsaUI", 10, 'f', "AAAAAAA"));
+            ListaSerie.Add(new Serie("ÑOQUI", 10, 'f', "AAAAAAA"));
+            ListaVideojuegos.Add(new Videojuego("popo", 'a', "pedrito", 10));
+            ListaVideojuegos.Add(new Videojuego("popo", 'a', "pedrito", 51));
+            ListaVideojuegos.Add(new Videojuego("popo", 'a', "pedrito", 12));
+            ListaSerie[1].entregar();
+            ListaSerie[5].entregar();
+            ListaVideojuegos[0].entregar();
+            Console.WriteLine(ListaVideojuegos[5].compareTo(ListaVideojuegos[1]) +" "+ ListaSerie[2].Entregado);
+            Videojuego contadorVid = ListaVideojuegos[0];
+            Serie contadorSer = ListaSerie[0];
+            foreach (Serie serie in ListaSerie) 
+            { 
+                if (serie.Entregado) Console.WriteLine("serie "+ serie.Titulo+" está entregado");
+                if (serie.NumDeTemp > contadorSer.NumDeTemp) contadorSer = serie;
+            }
+            foreach (Videojuego videojuego in ListaVideojuegos) 
+            { 
+                if (videojuego.Entregado) Console.WriteLine("videojuego "+ videojuego.Titulo+" está entregado");
+                if(videojuego.HsEstimada > contadorVid.HsEstimada) contadorVid = videojuego;
+            }
+            Console.WriteLine(contadorVid.HsEstimada+" "+ contadorSer.NumDeTemp);
             Console.ReadKey();
         }
     }
@@ -25,7 +47,7 @@ namespace ejer5
         void entregar();
         void devolver();
         bool isEntregado();
-        Entregable compareTo(Entregable objeto);
+        bool compareTo(Entregable objeto);
     }
     class Videojuego : Entregable
     {
@@ -46,6 +68,12 @@ namespace ejer5
             Compania = compania;
             HsEstimada = hsEstimada;
         }
+        public Videojuego() { }
+        public Videojuego(string titulo, int hsEstimada)
+        {
+            Titulo = titulo;
+            HsEstimada = hsEstimada;
+        }
         public void entregar()
         {
             Entregado = true;
@@ -58,18 +86,18 @@ namespace ejer5
         {
             return Entregado;
         }
-        public Entregable compareTo(Entregable objeto)
+        public bool compareTo(Entregable objeto)
         {
-            if (hsEstimada == objeto.HsEstimada)
+            if (objeto is Videojuego)
             {
-
-            }else
-            {
-
+                Videojuego videojuego = (Videojuego)objeto;
+                if (videojuego.HsEstimada > HsEstimada) return true;
+                else return false;
             }
+            return false;
         }
     }
-    class Serie
+    class Serie : Entregable
     {
         string titulo = "";
         int numDeTemp = 3;
@@ -94,6 +122,27 @@ namespace ejer5
             Titulo = titulo;
             Creador = creador;
         }
-    
+        public void entregar()
+        {
+            Entregado = true;
+        }
+        public void devolver()
+        {
+            Entregado = false;
+        }
+        public bool isEntregado()
+        {
+            return Entregado;
+        }
+        public bool compareTo(Entregable objeto)
+        {
+            if (objeto is Serie)
+            {
+                Serie serie = (Serie)objeto;
+                if (serie.numDeTemp > NumDeTemp) return true;
+                else return false;
+            }
+            return false;
+        }
     }
 }
