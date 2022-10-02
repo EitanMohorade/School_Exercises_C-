@@ -6,3 +6,11 @@ C:\Users\Alumno\Desktop\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer5\obj\Debug\ej
 C:\Users\Alumno\Desktop\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer5\obj\Debug\ejer5.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Desktop\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer5\obj\Debug\ejer5.exe
 C:\Users\Alumno\Desktop\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer5\obj\Debug\ejer5.pdb
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer5\bin\Debug\ejer5.exe.config
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer5\bin\Debug\ejer5.exe
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer5\bin\Debug\ejer5.pdb
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer5\obj\Debug\ejer5.csproj.AssemblyReference.cache
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer5\obj\Debug\ejer5.csproj.SuggestedBindingRedirects.cache
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer5\obj\Debug\ejer5.csproj.CoreCompileInputs.cache
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer5\obj\Debug\ejer5.exe
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer5\obj\Debug\ejer5.pdb

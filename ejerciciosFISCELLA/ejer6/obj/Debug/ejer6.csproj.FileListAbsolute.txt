@@ -1,0 +1,8 @@
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer6\bin\Debug\ejer6.exe.config
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer6\bin\Debug\ejer6.exe
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer6\bin\Debug\ejer6.pdb
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer6\obj\Debug\ejer6.csproj.AssemblyReference.cache
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer6\obj\Debug\ejer6.csproj.SuggestedBindingRedirects.cache
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer6\obj\Debug\ejer6.csproj.CoreCompileInputs.cache
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer6\obj\Debug\ejer6.exe
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer6\obj\Debug\ejer6.pdb

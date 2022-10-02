@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Alumno\\.nuget\\packages\\": {}
+    "C:\\Users\\Lochofo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer2idem\\ejer2idem.csproj",
+      "projectUniqueName": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer2idem\\ejer2idem.csproj",
       "projectName": "ejer2idem",
-      "projectPath": "C:\\Users\\Alumno\\Desktop\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer2idem\\ejer2idem.csproj",
-      "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alumno\\Desktop\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer2idem\\obj\\",
+      "projectPath": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer2idem\\ejer2idem.csproj",
+      "packagesPath": "C:\\Users\\Lochofo\\.nuget\\packages\\",
+      "outputPath": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer2idem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lochofo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

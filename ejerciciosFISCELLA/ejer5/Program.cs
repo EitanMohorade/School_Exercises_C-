@@ -12,20 +12,19 @@ namespace ejer5
         {
             List<Serie> ListaSerie = new List<Serie>();
             List<Videojuego> ListaVideojuegos = new List<Videojuego>();
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 3; i++)
             {
                 ListaSerie.Add(new Serie("ÑOQUI", 5, 'f', "AAAAAAA"));
                 ListaVideojuegos.Add(new Videojuego("popo", 'a', "pedrito", 5));
             }
-            ListaSerie.Add(new Serie("ÑOQsfafsaUI", 10, 'f', "AAAAAAA"));
-            ListaSerie.Add(new Serie("ÑOQUI", 10, 'f', "AAAAAAA"));
+            ListaSerie.Add(new Serie("ñoquiENTRE", 10, 'f', "AAAAAAA"));
+            ListaSerie.Add(new Serie("ÑAMentre", 45, 'f', "asdAA"));
             ListaVideojuegos.Add(new Videojuego("popo", 'a', "pedrito", 10));
-            ListaVideojuegos.Add(new Videojuego("popo", 'a', "pedrito", 51));
-            ListaVideojuegos.Add(new Videojuego("popo", 'a', "pedrito", 12));
-            ListaSerie[1].entregar();
-            ListaSerie[5].entregar();
-            ListaVideojuegos[0].entregar();
-            Console.WriteLine(ListaVideojuegos[5].compareTo(ListaVideojuegos[1]) +" "+ ListaSerie[2].Entregado);
+            ListaVideojuegos.Add(new Videojuego("jolines", 'a', "pedrito", 51));
+            ListaSerie[3].entregar();
+            ListaSerie[4].entregar();
+            ListaVideojuegos[4].entregar();
+            //Console.WriteLine(ListaVideojuegos[5].compareTo(ListaVideojuegos[1]) +" "+ ListaSerie[2].Entregado);
             Videojuego contadorVid = ListaVideojuegos[0];
             Serie contadorSer = ListaSerie[0];
             foreach (Serie serie in ListaSerie) 
@@ -38,7 +37,8 @@ namespace ejer5
                 if (videojuego.Entregado) Console.WriteLine("videojuego "+ videojuego.Titulo+" está entregado");
                 if(videojuego.HsEstimada > contadorVid.HsEstimada) contadorVid = videojuego;
             }
-            Console.WriteLine(contadorVid.HsEstimada+" "+ contadorSer.NumDeTemp);
+            Console.WriteLine($"La serie con mas numero de temporadas es {contadorSer.Titulo} el cual tiene  {contadorSer.NumDeTemp}. Su creador es {contadorSer.Creador}");
+            Console.WriteLine($"El videojuego con mas horas estimadas es {contadorVid.Titulo} el cual tiene {contadorVid.HsEstimada} de hs estimadas. Su creador es {contadorVid.Compania}");
             Console.ReadKey();
         }
     }

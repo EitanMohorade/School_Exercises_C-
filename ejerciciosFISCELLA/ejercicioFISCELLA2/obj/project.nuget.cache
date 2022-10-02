@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I2d5mre+ne7pU52AZu+r3EcIDY6yZeDr47kIjK3FSqYBWNkP96sD70EvnMRBfHAUZIRMURwsiJAHRXqLYMNkhg==",
+  "dgSpecHash": "6f7Z0SrXxfrBqKYLEdNSRC4Ea0nSUe5gkNid/j1GNLMxxBPZ/ozAxfkbOi8JIzAUe5qRMVZ9d5zJfkc2r6lWsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alumno\\Desktop\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejercicioFISCELLA2\\ejer2.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512",
-    "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejercicioFISCELLA2\\ejer2.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
