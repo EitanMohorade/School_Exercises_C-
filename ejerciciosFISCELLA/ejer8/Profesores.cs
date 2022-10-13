@@ -6,18 +6,13 @@ using System.Threading.Tasks;
 
 namespace ejer8
 {
-    class Profesores : Aula
+    class Profesores : Persona
     {
-        string nombre = "";
-        int edad = 0;
-        char sexo = 'M';
+        static Random rdm = new Random();
         string materias = "";
-        public string Nombre { get { return nombre; } set { value = nombre; } }
-        public int Edad { get { return edad; } set { value = edad; } }
-        public char Sexo { get { return sexo; } set { value = sexo; } }
         public string Materias { get { return materias; } set { value = materias; } }
 
-        public Profesores(string nombre, int edad, char sexo, string materias)
+        public Profesores(string nombre, int edad, char sexo, string materias) : base(nombre, edad, sexo)
         {
             Nombre = nombre;
             Edad = edad;
@@ -29,7 +24,6 @@ namespace ejer8
         }
         public override void justificadas()
         {
-            Random rdm = new Random();
             int probabilidad = rdm.Next(1, 100);
             if (probabilidad <= 20)
             {

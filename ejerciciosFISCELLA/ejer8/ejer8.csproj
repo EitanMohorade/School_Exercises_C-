@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aula.cs" />
+    <Compile Include="Persona.cs" />
     <Compile Include="Estudiantes.cs" />
     <Compile Include="Profesores.cs" />
     <Compile Include="Program.cs" />
