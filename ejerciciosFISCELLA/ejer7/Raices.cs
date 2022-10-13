@@ -21,21 +21,23 @@ namespace ejer7
             B = b;
             C = c;
         }
-        public double obtenerRaices()
+        public void obtenerRaices()
         {
-            double raizPositiva = ((B * -1) + Math.Sqrt(((Math.Pow(B, 2)) - (4 * A * C))))/(2*A);
+
+            double raizePositiva = ((B * -1) + Math.Sqrt(((Math.Pow(B, 2)) - (4 * A * C)))) / (2 * A);
             double raizeNegativa = ((B * -1) - Math.Sqrt(((Math.Pow(B, 2)) - (4 * A * C)))) / (2 * A);
-            return raizPositiva + raizeNegativa;
+            Console.WriteLine($"{raizePositiva} y {raizeNegativa}");
+           
         }
-        public double obtenerRaiz()
+        public void obtenerRaiz()
         {
             double raizPositiva = ((B * -1) + Math.Sqrt(((Math.Pow(B, 2)) - (4 * A * C)))) / (2 * A);
-            double raizeNegativa = ((B * -1) - Math.Sqrt(((Math.Pow(B, 2)) - (4 * A * C)))) / (2 * A);
-            if (raizPositiva == raizeNegativa)
+            double raizNegativa = ((B * -1) - Math.Sqrt(((Math.Pow(B, 2)) - (4 * A * C)))) / (2 * A);
+            if (((Math.Pow(B, 2)) - (4 * A * C))==0)
             {
-                return raizeNegativa;
+                Console.WriteLine(raizPositiva);
             }
-            else return 0;
+            else Console.WriteLine("hay mas de una raiz");
         }
         public double getDiscriminante()
         {
@@ -58,8 +60,7 @@ namespace ejer7
         }
         public void calcular() //no la terminé
         {
-            double raizPositiva = ((B * -1) + Math.Sqrt(((Math.Pow(B, 2)) - (4 * A * C)))) / (2 * A);
-            double raizeNegativa = ((B * -1) - Math.Sqrt(((Math.Pow(B, 2)) - (4 * A * C)))) / (2 * A);
+            obtenerRaices();
         }
     }
 }

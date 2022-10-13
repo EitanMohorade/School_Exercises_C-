@@ -26,3 +26,16 @@ C:\Users\Alumno\Desktop\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2
 C:\Users\Alumno\Desktop\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\obj\Debug\netcoreapp3.1\ejer2.dll
 C:\Users\Alumno\Desktop\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\obj\Debug\netcoreapp3.1\ejer2.pdb
 C:\Users\Alumno\Desktop\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\obj\Debug\netcoreapp3.1\ejer2.genruntimeconfig.cache
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\bin\Debug\netcoreapp3.1\ejer2.exe
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\bin\Debug\netcoreapp3.1\ejer2.deps.json
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\bin\Debug\netcoreapp3.1\ejer2.runtimeconfig.json
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\bin\Debug\netcoreapp3.1\ejer2.runtimeconfig.dev.json
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\bin\Debug\netcoreapp3.1\ejer2.dll
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\bin\Debug\netcoreapp3.1\ejer2.pdb
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\obj\Debug\netcoreapp3.1\ejer2.csprojAssemblyReference.cache
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\obj\Debug\netcoreapp3.1\ejer2.AssemblyInfoInputs.cache
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\obj\Debug\netcoreapp3.1\ejer2.AssemblyInfo.cs
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\obj\Debug\netcoreapp3.1\ejer2.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\obj\Debug\netcoreapp3.1\ejer2.dll
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\obj\Debug\netcoreapp3.1\ejer2.pdb
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejercicioFISCELLA2\obj\Debug\netcoreapp3.1\ejer2.genruntimeconfig.cache

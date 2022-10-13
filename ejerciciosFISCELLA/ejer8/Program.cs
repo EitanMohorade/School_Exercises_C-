@@ -10,6 +10,13 @@ namespace ejer8
     {
         static void Main(string[] args)
         {
+            Estudiantes estudiante = new Estudiantes("jose", 21, 'M', 3);
+            estudiante.justificadas();
+            estudiante.justificadas();
+            estudiante.justificadas();
+            estudiante.justificadas();
+            Console.WriteLine(estudiante.Faltas);
+            Console.ReadKey();
         }
     }
 }

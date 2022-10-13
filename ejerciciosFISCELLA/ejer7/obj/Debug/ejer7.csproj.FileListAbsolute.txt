@@ -1,0 +1,7 @@
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer7\bin\Debug\ejer7.exe.config
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer7\bin\Debug\ejer7.exe
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer7\bin\Debug\ejer7.pdb
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer7\obj\Debug\ejer7.csprojAssemblyReference.cache
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer7\obj\Debug\ejer7.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer7\obj\Debug\ejer7.exe
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer7\obj\Debug\ejer7.pdb
