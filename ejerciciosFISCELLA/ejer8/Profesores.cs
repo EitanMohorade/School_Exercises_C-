@@ -8,7 +8,6 @@ namespace ejer8
 {
     class Profesores : Persona
     {
-        static Random rdm = new Random();
         string materias = "";
         public string Materias { get { return materias; } set { value = materias; } }
 
@@ -22,13 +21,24 @@ namespace ejer8
                 Materias = materias;
             }
         }
-        public override void justificadas()
+        public override bool justificadas()
         {
+            Random rdm = new Random();
             int probabilidad = rdm.Next(1, 100);
             if (probabilidad <= 20)
             {
-                faltar();
+                sumaFalta();
+                return true;
             }
+            else return false;
+        }
+        public override void faltar()
+        {
+            if (justificadas())
+            {
+                Presente = false;
+            }
+            else Presente = true;
         }
     }
 }
