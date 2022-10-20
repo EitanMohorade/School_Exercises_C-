@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ejer8
+namespace ejer9
 {
-    class Materia
+    class Cine
     {
-
+        int precio = 0;
+        public int Precio { get { return precio; } set { precio = value; } }
     }
 }
