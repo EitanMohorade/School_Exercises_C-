@@ -11,30 +11,36 @@ namespace ejer8
         static Random rdm = new Random();
         int probabilidad = rdm.Next(1, 100);
         int calificacion = 0;
-        public int Calificacion { get { return calificacion; } set { value = calificacion; } }
+        public int Calificacion { get { return calificacion; } set { calificacion = value; } }
         public Estudiante(string nombre, int edad, char sexo, int calificacion) : base(nombre, edad, sexo)
         {
             Nombre = nombre;
             Edad = edad;
             Sexo = sexo;
-            Calificacion = calificacion;
+            if (calificacion > 10)
+            {
+                Calificacion = 10;
+            }
+            else
+            {
+                Calificacion = calificacion;
+            }
         }
         public override bool justificadas()
         {
             //int probabilidad = rdm.Next(1, 100);
-            if (probabilidad <= 80)
+            if (probabilidad <= 50)
             {
                 sumaFalta();
+                Presente = false;
                 return true;
             }
             else return false;
         }
         public override void faltar()
         {
-            if (justificadas())
-            {
                 Presente = false;
-            }else Presente = true;
+                sumaFalta();
         }
     }
 }

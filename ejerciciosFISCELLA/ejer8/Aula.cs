@@ -11,24 +11,27 @@ namespace ejer8
     {
         int id = 0;
         int maxAlumnos = 0;
-        string materia = "";
+        List<string> materias = new List<string>();
+        public List<string> Materias { get { return materias; } set { materias = value; } }
         public int Id { get { return id; } set { id = value; } }
         public int MaxAlumnos { get { return maxAlumnos; } set { maxAlumnos = value; } }
-        public string Materia { get { return materia; } set { materia = value; } }
-        public Aula(int id, int maxAlumnos, string materia)
+        public Aula(int id, int maxAlumnos, List<string> materia)
         {
             Id = id;
             MaxAlumnos = maxAlumnos;
-            Materia = materia;
+            Materias = materia;
         }
         public bool disponibilidad(Profesores profe, List<Estudiante> estudiantes)
-        {
-            if (profe.justificadas())
+        { 
+            if (profe.Presente == true)
             {
-                if(profe.Materias == materia) {
-                    if (cursoPresente(estudiantes))
-                    {
-                        return true;
+                if(profe.Materias == Materias) {
+                    if (estudiantes.Count < maxAlumnos) { 
+                        if (cursoPresente(estudiantes) == true)
+                        {
+                            return true;
+                        }
+                        else return false;
                     }
                     return false;
                 }
@@ -47,11 +50,11 @@ namespace ejer8
                     contador++;
                 }
             }
-            if (contador < mitadCurso)
+            if (contador >= mitadCurso)
             {
                 return false;
             }
-            else return true;
+            else return true; //anda
         }
     }
 }

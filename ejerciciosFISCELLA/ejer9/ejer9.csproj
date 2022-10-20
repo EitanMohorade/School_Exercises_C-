@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{97FD8D57-DB0E-4311-8E83-A2EC5B3AF9D0}</ProjectGuid>
+    <ProjectGuid>{EFA8162F-6B37-4540-AAEE-82E90D9F72BE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ejer8</RootNamespace>
-    <AssemblyName>ejer8</AssemblyName>
+    <RootNamespace>ejer9</RootNamespace>
+    <AssemblyName>ejer9</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aula.cs" />
-    <Compile Include="Materia.cs" />
-    <Compile Include="Persona.cs" />
-    <Compile Include="Estudiante.cs" />
-    <Compile Include="Profesores.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

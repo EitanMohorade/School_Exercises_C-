@@ -12,12 +12,12 @@ namespace ejer8
         int edad = 0;
         char sexo = 'M';
         int faltas = 0;
-        bool presente = false;
-        public int Faltas { get { return faltas; } set { value = faltas; } }
-        public string Nombre { get { return nombre; } set { value = nombre; } }
-        public int Edad { get { return edad; } set { value = edad; } }
-        public char Sexo { get { return sexo; } set { value = sexo; } }
-        public bool Presente { get { return presente; } set { value = presente; } }
+        bool presente = true;
+        public int Faltas { get { return faltas; } set { faltas = value; } }
+        public string Nombre { get { return nombre; } set { nombre = value; } }
+        public int Edad { get { return edad; } set { edad = value; } }
+        public char Sexo { get { return sexo; } set { sexo = value; } }
+        public bool Presente { get { return presente; } set {  presente = value; } }
         public Persona(string nombre, int edad, char sexo)
         {
             Nombre = nombre;
