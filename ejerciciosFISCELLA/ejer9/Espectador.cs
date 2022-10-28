@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ejer9
 {
-    class Inspector
+    class Espectador
     {
         string nombre = "";
         int edad = 0;
