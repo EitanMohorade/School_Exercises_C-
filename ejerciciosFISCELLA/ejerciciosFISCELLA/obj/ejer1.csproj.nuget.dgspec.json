@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer1.csproj": {}
+    "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer1.csproj": {
+    "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer1.csproj",
+        "projectUniqueName": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer1.csproj",
         "projectName": "ejer1",
-        "projectPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer1.csproj",
-        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\obj\\",
+        "projectPath": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer1.csproj",
+        "packagesPath": "C:\\Users\\Lochofo\\.nuget\\packages\\",
+        "outputPath": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lochofo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

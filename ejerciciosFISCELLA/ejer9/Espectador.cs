@@ -14,5 +14,11 @@ namespace ejer9
         public string Nombre { get { return nombre; } set { nombre = value; } }
         public int Edad { get { return edad; } set { edad = value; } }
         public int Dinero { get { return dinero; } set { dinero = value; } }
+        public Espectador (string nombre, int edad, int dinero)
+        {
+            Edad = edad;
+            Dinero = dinero;
+            Nombre = nombre;
+        }
     }
 }

@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Alumno\\.nuget\\packages\\": {}
+    "C:\\Users\\Lochofo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer3\\ejer3.csproj",
+      "projectUniqueName": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer3\\ejer3.csproj",
       "projectName": "ejer3",
-      "projectPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer3\\ejer3.csproj",
-      "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer3\\obj\\",
+      "projectPath": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer3\\ejer3.csproj",
+      "packagesPath": "C:\\Users\\Lochofo\\.nuget\\packages\\",
+      "outputPath": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lochofo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

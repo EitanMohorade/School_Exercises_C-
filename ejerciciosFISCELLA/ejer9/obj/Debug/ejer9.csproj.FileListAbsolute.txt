@@ -6,3 +6,11 @@ C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer9\obj\Deb
 C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer9\obj\Debug\ejer9.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer9\obj\Debug\ejer9.exe
 C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer9\obj\Debug\ejer9.pdb
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer9\bin\Debug\ejer9.exe.config
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer9\bin\Debug\ejer9.exe
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer9\bin\Debug\ejer9.pdb
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer9\obj\Debug\ejer9.csproj.AssemblyReference.cache
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer9\obj\Debug\ejer9.csproj.SuggestedBindingRedirects.cache
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer9\obj\Debug\ejer9.csproj.CoreCompileInputs.cache
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer9\obj\Debug\ejer9.exe
+D:\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer9\obj\Debug\ejer9.pdb

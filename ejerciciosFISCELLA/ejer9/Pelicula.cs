@@ -17,5 +17,9 @@ namespace ejer9
         public int Duracion { get { return duracion; } set { duracion = value; } }
         public int Edad { get { return edad; } set { edad = value; } }
         public string Director { get { return director; } set { director = value; } }
+        public Pelicula(int edad)
+        {
+            Edad = edad;
+        }
     }
 }

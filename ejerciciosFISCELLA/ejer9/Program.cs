@@ -10,20 +10,45 @@ namespace ejer9
     {
         static void Main(string[] args)
         {
-            char[] letra = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I' };
-            int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9};
             int cont = 0;
-            int columna = 9;
-            int fila = 5;
-            for (int a = 0; a < fila; a++)
+            List<Espectador> espectados = new List<Espectador>();
+            Espectador per1 = new Espectador("juan", 38, 130);
+            Espectador per2 = new Espectador("ana", 24, 400);
+            Espectador per3 = new Espectador("manuel", 18, 50);
+            Espectador per4 = new Espectador("josefina", 45, 190);
+            Espectador per5 = new Espectador("josefina", 45, 190);
+            Espectador per6 = new Espectador("josefina", 45, 190);
+            Espectador per7 = new Espectador("josefina", 45, 190);
+            Espectador per8 = new Espectador("josefina", 45, 190);
+            espectados.Add(per1);
+            espectados.Add(per2);
+            espectados.Add(per3);
+            espectados.Add(per4);
+            espectados.Add(per5);
+            espectados.Add(per6);
+            espectados.Add(per7);
+            espectados.Add(per8);
+            ///////////////////////
+            Sala sala = new Sala(9, 5);
+            Pelicula peli = new Pelicula(20);
+            Cine cine = new Cine(200, peli);
+            //////EJECUCION//////
+            foreach(Espectador espectador in espectados)
             {
-                cont++;
-                for (int b = 0; b < columna; b++)
+                if(espectador.Edad > cine.Peli.Edad)
                 {
-                    Console.Write(array[fila-cont] +" "+ letra[b] + "     ");
+                    sala.ocuparRandom(espectador);
+                    Console.WriteLine($"en el asiento {sala.AsientoOcupados[cont]}");
+                    cont++;
                 }
-                Console.WriteLine("\n");
+                else
+                {
+                    Console.WriteLine($"{espectador.Nombre} no tiene la edad suficiente para ver la pelicula");
+                }
             }
+            ///////////////////
+            sala.simulacion();
+            //////////////////
             Console.ReadKey();
         }
     }
