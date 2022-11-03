@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31019.35
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ejer1", "ejerciciosFISCELLA\ejer1.csproj", "{CC96B379-76F8-4DB7-8F59-1009D447AF26}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejer8", "ejer8\ejer8.csproj", "{97FD8D57-DB0E-4311-8E83-A2EC5B3AF9D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejer9", "ejer9\ejer9.csproj", "{EFA8162F-6B37-4540-AAEE-82E90D9F72BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejer10", "ejer10\ejer10.csproj", "{C24AECAA-30EB-488C-972C-855D614349F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{EFA8162F-6B37-4540-AAEE-82E90D9F72BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFA8162F-6B37-4540-AAEE-82E90D9F72BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFA8162F-6B37-4540-AAEE-82E90D9F72BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24AECAA-30EB-488C-972C-855D614349F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24AECAA-30EB-488C-972C-855D614349F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24AECAA-30EB-488C-972C-855D614349F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24AECAA-30EB-488C-972C-855D614349F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

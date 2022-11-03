@@ -4,6 +4,21 @@
     "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer4\\ejer4.csproj": {}
   },
   "projects": {
+    "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer10\\ejer10.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer10\\ejer10.csproj",
+        "projectName": "ejer10",
+        "projectPath": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer10\\ejer10.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer4\\ejer4.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +42,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer10\\ejer10.csproj": {
+                "projectPath": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer10\\ejer10.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
