@@ -16,18 +16,10 @@ namespace ejer9
             Espectador per2 = new Espectador("ana", 24, 400);
             Espectador per3 = new Espectador("manuel", 18, 50);
             Espectador per4 = new Espectador("josefina", 45, 190);
-            Espectador per5 = new Espectador("josefina", 45, 190);
-            Espectador per6 = new Espectador("josefina", 45, 190);
-            Espectador per7 = new Espectador("josefina", 45, 190);
-            Espectador per8 = new Espectador("josefina", 45, 190);
             espectados.Add(per1);
             espectados.Add(per2);
             espectados.Add(per3);
             espectados.Add(per4);
-            espectados.Add(per5);
-            espectados.Add(per6);
-            espectados.Add(per7);
-            espectados.Add(per8);
             ///////////////////////
             Sala sala = new Sala(9, 5);
             Pelicula peli = new Pelicula(20);
@@ -37,9 +29,16 @@ namespace ejer9
             {
                 if(espectador.Edad > cine.Peli.Edad)
                 {
-                    sala.ocuparRandom(espectador);
-                    Console.WriteLine($"en el asiento {sala.AsientoOcupados[cont]}");
-                    cont++;
+                    if(espectador.Dinero >= cine.Precio)
+                    {
+                        sala.ocuparRandom(espectador);
+                        Console.WriteLine($"en el asiento {sala.AsientoOcupados[cont]}");
+                        cont++;
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{espectador.Nombre} no tiene el dinero suficiente para ver la pelicula");
+                    }   
                 }
                 else
                 {

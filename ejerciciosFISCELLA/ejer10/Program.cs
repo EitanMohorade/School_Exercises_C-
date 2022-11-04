@@ -11,13 +11,18 @@ namespace ejer10
         static void Main(string[] args)
         {
             int cont = 0;
-            Baraja baraja = new Baraja();
-            baraja.barajar();
-            foreach(string barja in baraja.baraja)
+            Baraja barja = new Baraja();
+            barja.barajar();
+
+            for(var i = 0; i < barja.baraja.Count; i++)
             {
-                Console.WriteLine(baraja.baraja[cont]);
-                cont++;
+                Console.WriteLine(barja.siguienteCarta());
+                //Console.WriteLine(barja.baraja[i]);
             }
+            Console.WriteLine("\n"+barja.cartasDisponibles());
+            
+                
+            
             Console.ReadKey();
         }
     }
