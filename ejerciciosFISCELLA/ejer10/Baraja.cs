@@ -49,27 +49,73 @@ namespace ejer10
             int randm = rnd.Next(0, 39);
             baraja = baraja.OrderBy(baraja => rnd.Next()).ToList();
         }
-        public string siguienteCarta()//devuelve la siguiente carta
+        public void siguienteCarta()//devuelve la siguiente carta
         {
             if(cont < baraja.Count)
             {
                 cont++;
-                return baraja[cont-1];
+                Console.WriteLine(baraja[cont-1]);
+                
             }
             else
             {
-                return "baraja vacia!!!";
+                Console.WriteLine("baraja vacia!!!");
             }
         }
-        public string cartasDisponibles()//muestra las cartas disponibles en el mazo 
+        public void cartasDisponibles()//muestra las cartas disponibles en el mazo 
         {
-            if(siguienteCarta() == baraja[cont - 1])
+            if (cont < baraja.Count)
             {
-                return (baraja.Count - cont + 1).ToString() + " cartas disponibles";
+                Console.WriteLine( (baraja.Count - cont).ToString() + " cartas disponibles");
             }
             else
             {
-                return "no hay cartas disponibles";
+                Console.WriteLine("no hay cartas disponibles");
+            }
+        }
+        public void darCartas(int num, List<string> user) //dado un número de cartas que nos pidan, le devolveremos ese número de cartas.
+        {
+            if (baraja.Count - cont >= num)
+            {
+                for (int i = 0; i < num; i++)
+                {
+                    user.Add(baraja[cont]);
+                    //baraja.RemoveAt(i);
+                    cont++;
+                }
+            }
+            else
+            {
+                Console.WriteLine("no hay las cartas necesarias para dar");
+            }
+        }
+        public void cartasMonto() //mostramos aquellas cartas que ya han salido, si no ha salido ninguna indicárselo al usuario
+        {
+            if (cont > 0)
+            {
+                for(int i = 0; i < cont; i++)
+                {
+                    Console.WriteLine(baraja[i]);
+                }
+                }
+            else
+            {
+                Console.WriteLine("no ha salido ninguna carta");
+            }
+        }
+        public void mostrarBaraja() //muestra todas las cartas hasta el final excluyendo las que si se sacaron
+        {
+            if (cont < baraja.Count)
+            {
+                for (int i = 0; i < baraja.Count-cont; i++)
+                {
+                    //Console.WriteLine("a");
+                    Console.WriteLine(baraja[cont + i]);
+                }
+            }
+            else
+            {
+                Console.WriteLine("baraja vacia!!!");
             }
         }
     }
