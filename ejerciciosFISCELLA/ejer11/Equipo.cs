@@ -18,5 +18,6 @@ namespace ejer11
         {
             Nombre = nombre;
         }
+        public Equipo(){}
     }
 }

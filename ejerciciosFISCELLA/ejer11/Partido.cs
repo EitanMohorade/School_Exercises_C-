@@ -9,14 +9,13 @@ namespace ejer11
     internal class Partido
     {
         static Random Rndm = new Random();
-        int probabilida = Rndm.Next(1, 2);
         int idPartido = 0;
-        Equipo equipoGanador;
+        List<Equipo> equipoGanador = new List<Equipo>();
         Equipo equipo1;
         Equipo equipo2;
         public Equipo Equipo1 { get { return equipo1; } set { equipo1 = value; } }
         public Equipo Equipo2 { get { return equipo2; } set { equipo2 = value; } }
-        public Equipo EquipoGanador { get { return equipoGanador; } set { equipoGanador = value; } }
+        public List<Equipo> EquipoGanador { get { return equipoGanador; } set { equipoGanador = value; } }
         public int IdPartido { get { return idPartido; } set { idPartido = value; } }
         public Partido(Equipo equipo1, Equipo equipo2)
         {
@@ -26,15 +25,21 @@ namespace ejer11
         }
         public void ganador()
         {
-            if(probabilida == 1)
+            Equipo empate = new Equipo("empate");
+            int probabilida = Rndm.Next(0, 100);
+            if (probabilida <= 45)
             {
-                equipoGanador = equipo1;
                 equipo1.Ganador = true;
+                EquipoGanador.Add(Equipo1);
+            }
+            else if (probabilida <= 85)
+            {
+                equipo2.Ganador = true;
+                EquipoGanador.Add(Equipo2);
             }
             else
             {
-                equipoGanador = equipo2;
-                equipo2.Ganador = true;
+                EquipoGanador.Add(empate);
             }
         }
     }

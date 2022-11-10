@@ -1,35 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer4\\ejer4.csproj": {}
+    "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer4\\ejer4.csproj": {}
   },
   "projects": {
-    "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer10\\ejer10.csproj": {
+    "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer10\\ejer10.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer10\\ejer10.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer10\\ejer10.csproj",
         "projectName": "ejer10",
-        "projectPath": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer10\\ejer10.csproj",
-        "frameworks": {
-          "net472": {
-            "projectReferences": {}
-          }
-        }
+        "projectPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer10\\ejer10.csproj"
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer4\\ejer4.csproj": {
+    "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer4\\ejer4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer4\\ejer4.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer4\\ejer4.csproj",
         "projectName": "ejer4",
-        "projectPath": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer4\\ejer4.csproj",
-        "packagesPath": "C:\\Users\\Lochofo\\.nuget\\packages\\",
-        "outputPath": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer4\\obj\\",
+        "projectPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer4\\ejer4.csproj",
+        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lochofo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +38,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer10\\ejer10.csproj": {
-                "projectPath": "D:\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer10\\ejer10.csproj"
+              "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer10\\ejer10.csproj": {
+                "projectPath": "C:\\Users\\Alumno\\source\\repos\\ejerciciosFISCELLA\\ejerciciosFISCELLA\\ejer10\\ejer10.csproj"
               }
             }
           }
@@ -64,8 +59,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -74,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

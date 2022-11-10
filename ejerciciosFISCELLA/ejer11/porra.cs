@@ -6,23 +6,23 @@ using System.Threading.Tasks;
 
 namespace ejer11
 {
-    internal class porra
+    internal class Porra
     {
         int cont = 0;
-        List<persona> personaList;
+        List<Persona> personaList;
         Partido partido;
         int dinero = 0; //dinero de TODA la porra
         public int Dinero { get { return dinero; } set { dinero = value; } }
         public Partido Partido { get { return partido; } set { partido = value; } }
-        public List<persona> PersonaList { get { return personaList; } set { personaList = value; } }
-        public porra(List<persona> personas, Partido partido)
+        public List<Persona> PersonaList { get { return personaList; } set { personaList = value; } }
+        public Porra(List<Persona> personas, Partido partido)
         {
             Partido = partido;
             PersonaList = personas;
         }
         public void darEuro() //Cada jugador de la porra, pone un 1 euro cada jornada y decide el resultado de los partidos acordados
         {
-            foreach(persona persona in PersonaList)
+            foreach(Persona persona in PersonaList)
             {
                 if(persona.Dinero > 1)
                 {
@@ -34,17 +34,28 @@ namespace ejer11
         }
         public void conteoDeResultados() //deben acertar el resultado de dos partidos para llevarse el dinero del bote de la porra
         {
-            foreach (persona persona in PersonaList)
+            foreach (Persona persona in PersonaList)
             {
-                if (partido.EquipoGanador == persona.EquipoPer)
+                if (partido.EquipoGanador.Contains(persona.EquipoPer))
                 {
                     cont++;
-                    Console.WriteLine($"la persona {persona.Nombre} gano la porra de {Dinero}");
-                }else if (cont == 0)
-                {
-                    Console.WriteLine("nadie le atino al equipo ganador");
                 }
             }
+            if(cont > 0)
+            {
+                //dinero = dinero / cont;
+            }
+        }
+        public string darBote() //la primera persona que eligio al equipo ganador, gana el bote
+        {
+            foreach (Persona persona in PersonaList)
+            {
+                if (partido.EquipoGanador[0] == persona.EquipoPer && partido.EquipoGanador[1] == persona.EquipoPer)
+                {
+                    return persona.Nombre + " ganó la porra de " + dinero.ToString();
+                }
+            }
+            return "hubo empate";
         }
     }
 }

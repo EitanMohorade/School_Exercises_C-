@@ -45,8 +45,8 @@
   <ItemGroup>
     <Compile Include="Equipo.cs" />
     <Compile Include="Partido.cs" />
-    <Compile Include="persona.cs" />
-    <Compile Include="porra.cs" />
+    <Compile Include="Persona.cs" />
+    <Compile Include="Porra.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
