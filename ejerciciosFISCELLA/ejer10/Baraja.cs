@@ -29,12 +29,12 @@ namespace ejer10
                 }
             }
         }
-        public void barajarFALLIDO()//no baraja bien
+        public void barajarFALLIDO()//no abaraja bien
         {
             List<string> barajaPerdida = new List<string>();
                 for (int i = 0; i < baraja.Count; i++)
                 {
-                    int randm = rnd.Next(0, 39);
+                    int randm = rnd.Next(0, 40);
                     barajaPerdida.Add(baraja[randm]);
                 }
                 for(int h = 0; h < barajaPerdida.Count; h++)
@@ -45,8 +45,7 @@ namespace ejer10
         }
         public void barajar()//mezclar cartas
         {
-            List<string> barajaPerdida = new List<string>();
-            int randm = rnd.Next(0, 39);
+            int randm = rnd.Next(0, 40);
             baraja = baraja.OrderBy(baraja => rnd.Next()).ToList();
         }
         public void siguienteCarta()//devuelve la siguiente carta

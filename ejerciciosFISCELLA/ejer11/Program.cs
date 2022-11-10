@@ -27,7 +27,7 @@ namespace ejer11
 
             //
             //primer partido
-            Console.WriteLine("     PRIMER PARTIDO");
+            Console.WriteLine($"     PRIMER PARTIDO {partido.Equipo1.Nombre} vs {partido.Equipo2.Nombre}");
             for (int i=0; i < jornadas; i++)
             {
                 porra.darEuro();
