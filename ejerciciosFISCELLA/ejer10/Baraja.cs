@@ -8,6 +8,7 @@ namespace ejer10
 {
     internal class Baraja
     {
+        //ATRIBUTOS
         int cont = 0;
         static Random rnd = new Random();
         string[] palo = { "espada", "basto", "oro", "copa" };

@@ -10,12 +10,13 @@ namespace ejer10
     {
         static void Main(string[] args)
         {
-            int cont = 0;
+            //OBJETOS
             List<string> usuario1 = new List<string>();
             Baraja barja = new Baraja();
+            //PROGRAMA
             barja.barajar();
             Console.WriteLine(barja.baraja.Count);
-            for(var i = 8; i < barja.baraja.Count; i++)
+            for(var i = 20; i < barja.baraja.Count; i++)
             {
                 barja.siguienteCarta();
             }
@@ -29,7 +30,7 @@ namespace ejer10
             barja.cartasDisponibles();
             //barja.cartasMonto();
             barja.mostrarBaraja();
-
+            //
             Console.ReadKey();
         }
     }

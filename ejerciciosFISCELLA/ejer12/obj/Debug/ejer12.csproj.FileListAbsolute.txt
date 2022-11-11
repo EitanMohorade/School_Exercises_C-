@@ -1,0 +1,8 @@
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer12\bin\Debug\ejer12.exe.config
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer12\bin\Debug\ejer12.exe
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer12\bin\Debug\ejer12.pdb
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer12\obj\Debug\ejer12.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer12\obj\Debug\ejer12.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer12\obj\Debug\ejer12.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer12\obj\Debug\ejer12.exe
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer12\obj\Debug\ejer12.pdb

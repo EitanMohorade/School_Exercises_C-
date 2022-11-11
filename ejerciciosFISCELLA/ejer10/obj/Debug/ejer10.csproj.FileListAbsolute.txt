@@ -12,3 +12,5 @@ C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer10\bin\De
 C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer10\obj\Debug\ejer10.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer10\obj\Debug\ejer10.exe
 C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer10\obj\Debug\ejer10.pdb
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer10\obj\Debug\ejer10.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\ejerciciosFISCELLA\ejerciciosFISCELLA\ejer10\obj\Debug\ejer10.csproj.SuggestedBindingRedirects.cache
