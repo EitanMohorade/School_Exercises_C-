@@ -1,0 +1,15 @@
+/home/eitan/Documentos/080923/bin/Debug/net6.0/080923
+/home/eitan/Documentos/080923/bin/Debug/net6.0/080923.deps.json
+/home/eitan/Documentos/080923/bin/Debug/net6.0/080923.runtimeconfig.json
+/home/eitan/Documentos/080923/bin/Debug/net6.0/080923.dll
+/home/eitan/Documentos/080923/bin/Debug/net6.0/ref/080923.dll
+/home/eitan/Documentos/080923/bin/Debug/net6.0/080923.pdb
+/home/eitan/Documentos/080923/obj/Debug/net6.0/080923.csproj.AssemblyReference.cache
+/home/eitan/Documentos/080923/obj/Debug/net6.0/080923.GeneratedMSBuildEditorConfig.editorconfig
+/home/eitan/Documentos/080923/obj/Debug/net6.0/080923.AssemblyInfoInputs.cache
+/home/eitan/Documentos/080923/obj/Debug/net6.0/080923.AssemblyInfo.cs
+/home/eitan/Documentos/080923/obj/Debug/net6.0/080923.csproj.CoreCompileInputs.cache
+/home/eitan/Documentos/080923/obj/Debug/net6.0/080923.dll
+/home/eitan/Documentos/080923/obj/Debug/net6.0/ref/080923.dll
+/home/eitan/Documentos/080923/obj/Debug/net6.0/080923.pdb
+/home/eitan/Documentos/080923/obj/Debug/net6.0/080923.genruntimeconfig.cache
